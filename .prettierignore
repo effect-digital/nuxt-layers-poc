@@ -1,0 +1,5 @@
+.github/**/*.yml
+node_modules/**/**
+public/**/**
+storyblok/**/**
+types/storyblok-component-types.d.ts

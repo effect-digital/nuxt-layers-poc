@@ -1,0 +1,12 @@
+{
+    "extends": "./.playground/.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "types": ["@nuxt/schema"],
+        "baseUrl": ".",
+        "paths": {
+            "#app-config-types": ["./types/app-config"],
+            "@presets/*": ["presets/*.ts"]
+        }
+    },
+    "include": ["types/**/*.d.ts", "presets/**/*.ts"]
+}

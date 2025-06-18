@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme {
+    --breakpoint-initial: 0rem;
+    --breakpoint-3xs: 21rem;
+    --breakpoint-2xs: 23rem;
+    --breakpoint-xs: 25.5rem;
+    --breakpoint-sm: 30rem;
+    --breakpoint-md: 43rem;
+    --breakpoint-lg: 57rem;
+    --breakpoint-xl: 80rem;
+    --breakpoint-2xl: 90rem;
+    --breakpoint-3xl: 95.5rem;
+    --breakpoint-max: 95.5rem;
+}
+
+@utility container {
+    @apply 3xs:px-7 mx-auto px-4 sm:px-9 lg:px-10;
+}
