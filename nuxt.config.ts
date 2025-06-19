@@ -5,7 +5,20 @@ export default defineNuxtConfig({
 
     css: ['~/assets/css/main.css'],
 
-    extends: [process.env.NUXT_EXTENDS || './layers/base'],
+    extends: process.env.NUXT_EXTENDS
+        ? [
+              [
+                  process.env.NUXT_EXTENDS,
+                  {
+                      auth: process.env.GITHUB_TOKEN,
+                      install: true,
+                      meta: {
+                          name: 'WoL-Layer'
+                      }
+                  }
+              ]
+          ]
+        : ['./layers/base'],
 
     modules: [
         '@nuxt/eslint',
