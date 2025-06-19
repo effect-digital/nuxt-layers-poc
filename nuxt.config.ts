@@ -10,7 +10,7 @@ export default defineNuxtConfig({
             'github:effect-digital/wol-layer',
             {
                 auth: process.env.GIGET_AUTH,
-                install: true,
+                // install: true,
                 meta: {
                     name: 'WoL Layer'
                 }
