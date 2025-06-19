@@ -1,0 +1,3937 @@
+{
+    "components": [
+        {
+            "name": "atomBlockQuote",
+            "display_name": "Block Quote",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.177Z",
+            "updated_at": "2025-05-06T17:06:09.211Z",
+            "id": 7047036,
+            "schema": {
+                "quote": {
+                    "type": "textarea",
+                    "pos": 0,
+                    "required": true,
+                    "id": "K7m3vOT_Q0q3R--Y3LpOMQ"
+                },
+                "textAlignment": {
+                    "type": "option",
+                    "pos": 1,
+                    "use_uuid": true,
+                    "options": [
+                        {
+                            "_uid": "d6fb1d38-88dc-4d3b-a080-ff1d539e3a03",
+                            "name": "Left",
+                            "value": "left"
+                        },
+                        {
+                            "_uid": "ec4d332e-b6dd-435f-aaf0-4a18a4232060",
+                            "value": "right",
+                            "name": "Right"
+                        }
+                    ],
+                    "required": true,
+                    "default_value": "left",
+                    "id": "BAI8ME0TThST-p8bf1Utdw",
+                    "description": "Provides text alignment options for the block. Does not affect alignment when used in columns or when nested in other blocks.",
+                    "tooltip": true
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Block Quote",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-comment",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomBodyCopy",
+            "display_name": "Body Copy",
+            "description": "",
+            "created_at": "2025-03-05T14:56:12.151Z",
+            "updated_at": "2025-05-06T17:05:48.695Z",
+            "id": 7047034,
+            "schema": {
+                "textAlignment": {
+                    "type": "option",
+                    "pos": 0,
+                    "required": true,
+                    "min_options": "1",
+                    "options": [
+                        {
+                            "_uid": "e73f5360-51ea-4d14-a28b-8d4290205b73",
+                            "name": "Left",
+                            "value": "left"
+                        },
+                        {
+                            "_uid": "012cb3d6-a00d-4911-862e-14e78130e68c",
+                            "value": "right",
+                            "name": "Right"
+                        }
+                    ],
+                    "default_value": "left",
+                    "id": "Dw3xUx4dQdyUlfVAFYatnA",
+                    "use_uuid": true,
+                    "description": "Provides text alignment options for the block. Does not affect alignment when used in columns or when nested in other blocks.",
+                    "tooltip": true
+                },
+                "richText": {
+                    "type": "richtext",
+                    "pos": 1,
+                    "required": true,
+                    "customize_toolbar": true,
+                    "restrict_type": "",
+                    "restrict_components": false,
+                    "toolbar": [
+                        "bold",
+                        "copy",
+                        "cut",
+                        "h2",
+                        "h3",
+                        "unset",
+                        "image",
+                        "italic",
+                        "link",
+                        "paragraph",
+                        "quote",
+                        "redo",
+                        "paste-action",
+                        "undo",
+                        "underline"
+                    ],
+                    "allow_target_blank": true,
+                    "id": "iK3NrPJmQ6ejVGCei99OgQ",
+                    "display_name": "Content"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Body Copy",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomCircularCta",
+            "display_name": "Circular Cta",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.109Z",
+            "updated_at": "2025-03-05T14:56:12.109Z",
+            "id": 7047031,
+            "schema": {
+                "text": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "6tJTwcf8RNOZmqFiu--V3g"
+                },
+                "link": {
+                    "type": "multilink",
+                    "pos": 1,
+                    "required": true,
+                    "allow_target_blank": true,
+                    "id": "G76j76FQQJGDdxWxCUginA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Circular Cta",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-@",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomFixedContent",
+            "display_name": "Fixed Content",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.138Z",
+            "updated_at": "2025-03-05T14:56:12.138Z",
+            "id": 7047033,
+            "schema": {
+                "type": {
+                    "type": "option",
+                    "pos": 0,
+                    "use_uuid": true,
+                    "options": [
+                        {
+                            "_uid": "526909b6-010e-4b6a-b333-1432329cf483",
+                            "name": "WOL Logo",
+                            "value": "wol-logo"
+                        },
+                        {
+                            "_uid": "3173166d-074a-474c-98ae-bebf31abc26d",
+                            "value": "homeviews",
+                            "name": "Homeviews Reviews"
+                        }
+                    ],
+                    "required": true,
+                    "id": "6rSGhjb7SAysK_ZYalJ4YA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Fixed Content",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2DB47D",
+            "icon": "block-text-img-c",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomPointOfInterest",
+            "display_name": "Point of interest",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.122Z",
+            "updated_at": "2025-03-05T14:56:12.122Z",
+            "id": 7047032,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "WuGXedFHQMqXI3d6vVDbyw"
+                },
+                "distanceInMinutes": {
+                    "type": "number",
+                    "pos": 1,
+                    "required": true,
+                    "description": "\"mins\" will be added automatically.",
+                    "decimals": 0,
+                    "steps": 1,
+                    "default_value": "0",
+                    "min_value": 0,
+                    "id": "SIco51BXQnWCN6iXKextNg"
+                },
+                "coordinates": {
+                    "type": "section",
+                    "pos": 2,
+                    "keys": ["lang", "lat", "lng"],
+                    "display_name": "Coordinates for map",
+                    "id": "mSX-zRnFSVe7qcfiICJMww"
+                },
+                "lat": {
+                    "type": "number",
+                    "pos": 3,
+                    "display_name": "Latitude",
+                    "id": "HR1VzePpRQ6uRJRdF6SPXg"
+                },
+                "lng": {
+                    "type": "number",
+                    "pos": 4,
+                    "display_name": "Longitude",
+                    "id": "Cg0EywcQSauc2QsE7htkfg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Point of interest",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-map-pin",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleBrow",
+            "display_name": "Brow",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.067Z",
+            "updated_at": "2025-04-01T14:04:17.805Z",
+            "id": 7047028,
+            "schema": {
+                "brow": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "RnbOukSbQvKbhIKaky9uAA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Brow",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleCta",
+            "display_name": "Single Cta",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.040Z",
+            "updated_at": "2025-03-05T14:56:12.040Z",
+            "id": 7047026,
+            "schema": {
+                "text": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "Fw91k9npSHywoBJgdgb1jQ"
+                },
+                "link": {
+                    "type": "multilink",
+                    "pos": 1,
+                    "required": true,
+                    "allow_target_blank": true,
+                    "id": "OIzg0BJXTGejXIYhmUKF2g"
+                },
+                "useMatterportLink": {
+                    "type": "boolean",
+                    "pos": 2,
+                    "display_name": "",
+                    "description": "Turn this on to override the link above with the matterport link from Everest. A url or page selection should still be supplied above, but if this is is turned on it won't be used.",
+                    "inline_label": true,
+                    "id": "U6oyW1xFTzS55QnUBm-Afw"
+                },
+                "TrackingEvent": {
+                    "type": "text",
+                    "pos": 3,
+                    "description": "An optional field that allows users to trigger a custom GA tracking event when clicked.",
+                    "id": "row8ymhIRKm6ArhQu2MQLw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Single Cta",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-@",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleFact",
+            "display_name": "Single Fact",
+            "description": null,
+            "created_at": "2025-04-02T15:07:00.677Z",
+            "updated_at": "2025-04-02T15:47:40.978Z",
+            "id": 7160111,
+            "schema": {
+                "content": {
+                    "type": "textarea",
+                    "pos": 1,
+                    "customize_toolbar": true,
+                    "toolbar": ["link", "paragraph"],
+                    "id": "lWbfRiEfQ8qFdgUSWejTfQ",
+                    "display_name": "Content"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Single Fact",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-tag",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleIcon",
+            "display_name": "Single Icon",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.094Z",
+            "updated_at": "2025-03-05T14:56:12.094Z",
+            "id": 7047030,
+            "schema": {
+                "icon": {
+                    "type": "option",
+                    "pos": 0,
+                    "use_uuid": true,
+                    "required": true,
+                    "source": "internal",
+                    "datasource_slug": "icons",
+                    "exclude_empty_option": true,
+                    "default_value": "ancient-house",
+                    "id": "-DkQmC3zShCAX7brRazWWw"
+                },
+                "theme": {
+                    "type": "option",
+                    "pos": 1,
+                    "use_uuid": true,
+                    "options": [
+                        {
+                            "_uid": "089a6371-52f1-49b4-b227-7bc3791fcf8d",
+                            "value": "default",
+                            "name": "Default"
+                        },
+                        {
+                            "_uid": "77eb994a-b8a1-46e2-a1fb-6d2ed661f616",
+                            "name": "Red",
+                            "value": "red"
+                        },
+                        {
+                            "_uid": "83309112-8dbc-4ef2-a628-7749ef74b2bd",
+                            "value": "pink",
+                            "name": "Pink"
+                        },
+                        {
+                            "_uid": "52bcd4c3-1229-4cfd-9472-9cca9665f8bf",
+                            "value": "green",
+                            "name": "Green"
+                        },
+                        {
+                            "_uid": "418ee060-98a9-41a0-8e7e-f311c672956c",
+                            "value": "blue",
+                            "name": "Blue"
+                        }
+                    ],
+                    "default_value": "default",
+                    "id": "DQRYu6zoRQOgj4f_DhaIxA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Single Icon",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-map-pin",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleMedia",
+            "display_name": "Single Media",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.165Z",
+            "updated_at": "2025-05-06T17:01:34.501Z",
+            "id": 7047035,
+            "schema": {
+                "media": {
+                    "type": "asset",
+                    "pos": 0,
+                    "required": true,
+                    "filetypes": ["images"],
+                    "id": "96bdk9hbRkaZiZuBkh5IWA"
+                },
+                "fullWidth": {
+                    "type": "boolean",
+                    "pos": 1,
+                    "tooltip": false,
+                    "id": "X9tPBbI8QcyLJqUGiYu0cQ"
+                },
+                "alignment": {
+                    "type": "option",
+                    "pos": 2,
+                    "use_uuid": true,
+                    "options": [
+                        {
+                            "_uid": "705b6e8a-78d2-4405-a834-12659a9d9b4a",
+                            "name": "Left",
+                            "value": "left"
+                        },
+                        {
+                            "_uid": "80424e51-46de-4671-90ad-45c070762b44",
+                            "value": "right",
+                            "name": "Right"
+                        }
+                    ],
+                    "default_value": "left",
+                    "id": "6-iR4mJkThio0KbWWJ2uhw",
+                    "required": true,
+                    "tooltip": true,
+                    "description": "Provides text alignment options for the block. Does not affect alignment when used in columns or when nested in other blocks."
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Single Media",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-image",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleMediaTile",
+            "display_name": "Single Media Tile",
+            "description": null,
+            "created_at": "2025-05-06T16:04:12.660Z",
+            "updated_at": "2025-05-06T16:06:33.973Z",
+            "id": 7307176,
+            "schema": {
+                "media": {
+                    "type": "asset",
+                    "pos": 0,
+                    "required": true,
+                    "filetypes": ["images"],
+                    "id": "96bdk9hbRkaZiZuBkh5IWA"
+                },
+                "fullWidth": {
+                    "type": "boolean",
+                    "pos": 1,
+                    "tooltip": false,
+                    "id": "X9tPBbI8QcyLJqUGiYu0cQ"
+                },
+                "pattern": {
+                    "type": "option",
+                    "pos": 2,
+                    "tooltip": true,
+                    "description": "Choose whether to display a directional pattern effect on the image or disable entirely.",
+                    "id": "CweWRTVpQWGkOOtG1_d0RA",
+                    "use_uuid": true,
+                    "options": [
+                        {
+                            "_uid": "33f77d6a-cdc7-43fd-ba79-1bf812f64bc0",
+                            "name": "Left",
+                            "value": "left"
+                        },
+                        {
+                            "_uid": "55ee555f-ef0f-4d22-9097-96772b9f9e79",
+                            "value": "right",
+                            "name": "Right"
+                        },
+                        {
+                            "_uid": "45960897-ebe7-451e-a9e2-e20cbeb74466",
+                            "value": "",
+                            "name": "None"
+                        }
+                    ]
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Single Media Tile",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-image",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleParagraph",
+            "display_name": "Paragraph",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.081Z",
+            "updated_at": "2025-03-05T14:56:12.081Z",
+            "id": 7047029,
+            "schema": {
+                "richText": {
+                    "type": "richtext",
+                    "pos": 0,
+                    "required": true,
+                    "customize_toolbar": true,
+                    "toolbar": [
+                        "paragraph",
+                        "paste-action",
+                        "redo",
+                        "undo",
+                        "copy",
+                        "hrule",
+                        "link",
+                        "italic",
+                        "bold"
+                    ],
+                    "id": "FSpJVcjlR8qI77iAxMqASg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Paragraph",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSingleTitle",
+            "display_name": "Title",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.054Z",
+            "updated_at": "2025-04-01T14:02:32.072Z",
+            "id": 7047027,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "q-3AwwoaSdGaekiy6pIonQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Title",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-tag",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomSpacedTitle",
+            "display_name": "Spaced Title",
+            "description": "Block to add title with letter spaces",
+            "created_at": "2025-03-20T11:26:13.121Z",
+            "updated_at": "2025-03-20T11:28:00.131Z",
+            "id": 7110275,
+            "schema": {
+                "title": {
+                    "type": "textarea",
+                    "pos": 0,
+                    "required": true,
+                    "tooltip": true,
+                    "id": "d2F04G0fRFiQoGdQ4q6SPA",
+                    "description": "Add the '*' symbol to indicate how many characters a word will be moved."
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Spaced Title",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-tag",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "atomUniqueSellingPoint",
+            "display_name": "Unique Selling Point",
+            "description": "",
+            "created_at": "2025-03-18T14:47:01.296Z",
+            "updated_at": "2025-06-05T16:49:07.123Z",
+            "id": 7100983,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "id": "ilK4SSJuQXCAoWsg5YgLWg"
+                },
+                "description": {
+                    "type": "text",
+                    "pos": 1,
+                    "id": "d36f_wEARWudjpcQ9FR0eA"
+                },
+                "icon": {
+                    "type": "option",
+                    "pos": 2,
+                    "use_uuid": true,
+                    "required": true,
+                    "source": "internal",
+                    "datasource_slug": "icons",
+                    "id": "cE1II0ZfQdm4L2XuwCysmQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Unique Selling Point",
+            "component_group_uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "color": "#2db47d",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Atoms"
+        },
+        {
+            "name": "dataApartmentTypes",
+            "display_name": "Data (Apartment Type)",
+            "description": null,
+            "created_at": "2025-03-18T17:45:34.204Z",
+            "updated_at": "2025-03-18T17:45:34.204Z",
+            "id": 7101720,
+            "schema": {
+                "key": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "D94ITpn3QquXtXs93zy0PQ"
+                },
+                "image": {
+                    "type": "asset",
+                    "pos": 1,
+                    "required": true,
+                    "id": "ANknJo3PQraMajr12Jf68A"
+                },
+                "sizeRange": {
+                    "type": "text",
+                    "pos": 2,
+                    "required": true,
+                    "default_value": "289 - 489sqft",
+                    "id": "edTG4nt0TMmW0TOfr5YoYQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Apartment Type)",
+            "component_group_uuid": "all",
+            "color": "#374DC3",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": ""
+        },
+        {
+            "name": "dataCallToAction",
+            "display_name": "Data (Call to Action)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.874Z",
+            "updated_at": "2025-03-07T09:20:25.862Z",
+            "id": 7047018,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "customize_toolbar": true,
+                    "toolbar": ["underline"],
+                    "required": true,
+                    "id": "WCidww6mR9aLlvt7K7AiUw"
+                },
+                "text": {
+                    "type": "text",
+                    "pos": 1,
+                    "id": "5cxNGGTsTLiTsEgwKCETNQ"
+                },
+                "button": {
+                    "type": "bloks",
+                    "pos": 2,
+                    "use_uuid": true,
+                    "source": "internal_stories",
+                    "minimum": 1,
+                    "maximum": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleCta"],
+                    "required": true,
+                    "id": "K2GXMHwqRP6_uJMwWmIn8A"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Call to Action)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataMagazineHighlight",
+            "display_name": null,
+            "description": "",
+            "created_at": "2025-03-05T14:56:11.977Z",
+            "updated_at": "2025-03-05T14:56:11.977Z",
+            "id": 7047025,
+            "schema": {
+                "logo": {
+                    "type": "asset",
+                    "pos": 0,
+                    "required": true,
+                    "description": "",
+                    "filetypes": ["images"],
+                    "id": "hxXefeDaSlGvFcq_xNYAJA",
+                    "asset_folder_id": 755960
+                },
+                "media": {
+                    "type": "asset",
+                    "pos": 1,
+                    "required": true,
+                    "id": "nphhwxBGQbGErRN6U2YM7w"
+                },
+                "quote": {
+                    "type": "textarea",
+                    "pos": 2,
+                    "id": "HJ8BixS0TlG27pOtOMMddg"
+                },
+                "citation": {
+                    "type": "text",
+                    "pos": 3,
+                    "required": true,
+                    "id": "FUl7UVvtSVmsjj3miaDrAQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "dataMagazineHighlight",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#374dc3",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataNavItem",
+            "display_name": "Data (Nav Item)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.901Z",
+            "updated_at": "2025-03-05T14:56:11.901Z",
+            "id": 7047020,
+            "schema": {
+                "link": {
+                    "type": "multilink",
+                    "pos": 0,
+                    "allow_target_blank": true,
+                    "restrict_content_types": true,
+                    "component_whitelist": ["templatePage", "templateProperty"],
+                    "allow_custom_attributes": false,
+                    "required": true,
+                    "id": "_08dY3GYSWC-c6EqGSiN-g"
+                },
+                "description": {
+                    "type": "text",
+                    "pos": 1,
+                    "required": false,
+                    "id": "54bSy646S8CFCj9BYUQDFA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Nav Item)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataPerks",
+            "display_name": "Data (Short stays)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.914Z",
+            "updated_at": "2025-05-09T16:27:29.257Z",
+            "id": 7047021,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": false,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleTitle",
+                        "atomSingleParagraph"
+                    ],
+                    "id": "NsxDjTApQ0a5PebpTkGtag"
+                },
+                "perks": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataTextIconPair"],
+                    "id": "FyU7yT_jTBqbbtHLc2_kCA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Short stays)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataPointsOfInterest",
+            "display_name": "Data (Points Of Interest)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.954Z",
+            "updated_at": "2025-03-05T14:56:11.954Z",
+            "id": 7047024,
+            "schema": {
+                "icon": {
+                    "type": "option",
+                    "pos": 0,
+                    "use_uuid": true,
+                    "source": "internal",
+                    "datasource_slug": "icons-pings",
+                    "required": true,
+                    "exclude_empty_option": true,
+                    "id": "28_6wNZhSgCkSKqT-btaSA"
+                },
+                "brow": {
+                    "type": "text",
+                    "pos": 1,
+                    "default_value": "From",
+                    "id": "6b9kCzBNR8m0g79Gwan9tw"
+                },
+                "hideFirstMins": {
+                    "type": "boolean",
+                    "pos": 2,
+                    "description": "Do you want to hide the 'mins' note from the first item?",
+                    "default_value": true,
+                    "inline_label": true,
+                    "id": "ab_vihCERWq13fTlfr7-nA"
+                },
+                "pointsOfInterest": {
+                    "type": "bloks",
+                    "pos": 3,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomPointOfInterest"],
+                    "required": true,
+                    "minimum": 1,
+                    "id": "YBiIJqtzSfKOlTqSQ2L99Q"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Points Of Interest)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataSingleFaq",
+            "display_name": "Data (Single FAQ)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.861Z",
+            "updated_at": "2025-03-05T14:56:11.861Z",
+            "id": 7047017,
+            "schema": {
+                "content": {
+                    "type": "richtext",
+                    "pos": 1,
+                    "customize_toolbar": true,
+                    "toolbar": ["link", "paragraph"],
+                    "id": "lWbfRiEfQ8qFdgUSWejTfQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Single FAQ)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataSingleReview",
+            "display_name": "Data (Single Review)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.888Z",
+            "updated_at": "2025-03-05T14:56:11.888Z",
+            "id": 7047019,
+            "schema": {
+                "starRating": {
+                    "type": "number",
+                    "pos": 0,
+                    "required": true,
+                    "decimals": 1,
+                    "max_value": 5,
+                    "steps": 0.5,
+                    "min_value": 0.5,
+                    "default_value": "5.0",
+                    "id": "GINvEtX_SCyFYF9M7CZR0g"
+                },
+                "text": {
+                    "type": "textarea",
+                    "pos": 1,
+                    "required": true,
+                    "id": "uPzw_EvXR32MJXnSWp6Ajw"
+                },
+                "residentSince": {
+                    "type": "text",
+                    "pos": 2,
+                    "description": "This will be prefixed with 'Resident Since', so please only add a year/date in this field.",
+                    "default_value": "2024",
+                    "required": true,
+                    "id": "H3hrPbilT6iR7hcVkIHrjg"
+                },
+                "residentSignature": {
+                    "type": "asset",
+                    "pos": 3,
+                    "description": "This should be either an SVG or a PNG",
+                    "filetypes": ["images"],
+                    "required": true,
+                    "asset_folder_id": 655059,
+                    "id": "oU9GsVUgQ3m9dkU94Lk5DA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Single Review)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataSingleStep",
+            "display_name": "Data (Single Step)",
+            "description": "",
+            "created_at": "2025-04-04T10:24:10.406Z",
+            "updated_at": "2025-04-04T10:37:34.433Z",
+            "id": 7169286,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "maximum": 3,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleTitle",
+                        "atomSingleCta",
+                        "atomSingleParagraph"
+                    ],
+                    "id": "jgq3CrtHQtKeDIePqPpSng"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Single Step)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#374dc3",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataSocialLink",
+            "display_name": "Data (Social Link)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.848Z",
+            "updated_at": "2025-03-05T14:56:11.848Z",
+            "id": 7047016,
+            "schema": {
+                "url": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "display_name": "URL",
+                    "restrict_content_types": false,
+                    "component_whitelist": [],
+                    "force_link_scope": false,
+                    "id": "u8zsdJr6QJmG25jXKvY6DA"
+                },
+                "icon": {
+                    "type": "option",
+                    "pos": 2,
+                    "use_uuid": true,
+                    "source": "internal",
+                    "datasource_slug": "icons",
+                    "required": true,
+                    "id": "A7EmNAn_QDCjQJczTzT9tw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Social Link)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataTextIconPair",
+            "display_name": "Data (Text and Icon Pair)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.926Z",
+            "updated_at": "2025-03-05T14:56:11.926Z",
+            "id": 7047022,
+            "schema": {
+                "icon": {
+                    "type": "option",
+                    "pos": 1,
+                    "use_uuid": true,
+                    "source": "internal",
+                    "datasource_slug": "icons",
+                    "exclude_empty_option": true,
+                    "required": true,
+                    "default_value": "ancient-house",
+                    "id": "gUJJ4aSgTKWRrwbX1y3B0Q"
+                }
+            },
+            "image": null,
+            "preview_field": "text",
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Text and Icon Pair)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#374DC3",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "dataTextWithCarousel",
+            "display_name": "Data (Text With Carousel)",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.939Z",
+            "updated_at": "2025-03-05T14:56:11.939Z",
+            "id": 7047023,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomFixedContent",
+                        "atomSingleParagraph",
+                        "atomSingleTitle"
+                    ],
+                    "required": true,
+                    "minimum": 1,
+                    "id": "iyERb7wzQLa-tVojN-ixOQ"
+                },
+                "media": {
+                    "type": "multiasset",
+                    "pos": 1,
+                    "id": "xTtq-asISZOM9ZuOnxfy1w"
+                },
+                "smallPrint": {
+                    "type": "text",
+                    "pos": 2,
+                    "id": "bBAvAXVfQXeFw-vkXqt1ng"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Data (Text With Carousel)",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-sticker",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "metaGlobalOptions",
+            "display_name": "Global Options",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.830Z",
+            "updated_at": "2025-05-27T09:04:00.208Z",
+            "id": 7047015,
+            "schema": {
+                "brandVideo": {
+                    "type": "asset",
+                    "pos": 1,
+                    "required": false,
+                    "filetypes": ["videos"],
+                    "asset_folder_id": 816922,
+                    "id": "8RVVQ5FdR0W0kt7KBHkqNQ",
+                    "display_name": "Brand Video",
+                    "tooltip": true,
+                    "description": "Choose a video to represent the video branding used on various blocks throughout the site including the Hero, Footer and Featured Listings sections. Selecting a video will override the background image."
+                },
+                "address": {
+                    "type": "textarea",
+                    "pos": 2,
+                    "required": true,
+                    "max_length": 50,
+                    "id": "dO1uJxOVRgGzwqLLwExZRg"
+                },
+                "telephone": {
+                    "type": "text",
+                    "key": "telephone",
+                    "pos": 3,
+                    "required": true,
+                    "id": "BKlVbaF9QCOU00nvs9W1hw"
+                },
+                "email": {
+                    "type": "text",
+                    "key": "email",
+                    "pos": 4,
+                    "required": true,
+                    "id": "wBxS1HeDTUO5T1mUC5402w"
+                },
+                "socialLinks": {
+                    "type": "options",
+                    "pos": 5,
+                    "use_uuid": true,
+                    "exclude_empty_option": false,
+                    "options": [
+                        {
+                            "_uid": "5077a744-902d-4aee-bad4-f63212fbbdfb",
+                            "name": "Icon",
+                            "value": "Url"
+                        }
+                    ],
+                    "allow_target_blank": true,
+                    "allow_custom_attributes": false,
+                    "key": "socialLinks",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomCallToAction"],
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataSocialLink"],
+                    "id": "sz7akwbZTOuo_u3FvhLniA"
+                },
+                "openingDate": {
+                    "type": "text",
+                    "pos": 6,
+                    "default_value": "Opening in march 2025",
+                    "id": "wzEu1zX8TmWTBmWPkz0L5g"
+                },
+                "locationPois": {
+                    "type": "options",
+                    "pos": 7,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataPointsOfInterest"],
+                    "min_options": "1",
+                    "required": true,
+                    "id": "bf2xSAUQTxyGx7crty6U9g",
+                    "display_name": "Location Points of Interest"
+                },
+                "locationPoisTitle": {
+                    "type": "bloks",
+                    "pos": 8,
+                    "required": true,
+                    "minimum": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleIcon",
+                        "atomSingleTitle"
+                    ],
+                    "id": "xKl1uQ1PSPWT6IBdAuY0cg",
+                    "display_name": "Location Points of Interest Title",
+                    "description": "Back up for whenever the location map is used and the titles aren't set. Useful for the single room pages."
+                },
+                "footerFormTitle": {
+                    "type": "text",
+                    "pos": 9,
+                    "description": "This is the text inside the orange box.",
+                    "id": "L6hRRYN4RKWzY7OPuBsosg"
+                },
+                "footerFormConsent": {
+                    "type": "richtext",
+                    "pos": 10,
+                    "required": true,
+                    "customize_toolbar": true,
+                    "toolbar": ["link"],
+                    "id": "5FT4AubLRQiZb5gTtGpSaw"
+                },
+                "footerNavigation": {
+                    "type": "bloks",
+                    "pos": 11,
+                    "description": "This is the first set of links in the footer.",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleCta"],
+                    "id": "GNT7h-eOQKG_33bVLdMhuA"
+                },
+                "footerSecondaryNavigation": {
+                    "type": "bloks",
+                    "pos": 12,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleCta"],
+                    "id": "0pU3wrR7QeerER17TKuFHg"
+                },
+                "footerPoliciesNavigation": {
+                    "type": "bloks",
+                    "pos": 13,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleCta"],
+                    "id": "grjnheDJSQGfpA1isvO58w"
+                },
+                "footerCompanyInfo": {
+                    "type": "text",
+                    "pos": 14,
+                    "id": "dSonQcpTQeevBsUxq4rF1A"
+                },
+                "homeviewsOverallScore": {
+                    "type": "number",
+                    "pos": 15,
+                    "description": "Taken from: https://www.homeviews.com/company/way-of-life",
+                    "id": "kbxRnSMIS72HQf0fsMbNCw"
+                },
+                "homeviewsOverallCount": {
+                    "type": "number",
+                    "pos": 16,
+                    "id": "YLinRL0oS5e9zL7GYu50Aw"
+                },
+                "desktopNavigation": {
+                    "type": "section",
+                    "pos": 17,
+                    "keys": ["desktopNavItems"],
+                    "id": "QCX24LSiRh-sg_raWrmB3g"
+                },
+                "desktopNavItems": {
+                    "type": "bloks",
+                    "pos": 18,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "required": true,
+                    "filter_content_type": [
+                        "templateProperty",
+                        "templateLocation",
+                        "templateJournal",
+                        "templateHomePage",
+                        "templateHome",
+                        "templateUnit",
+                        "dataNavItem"
+                    ],
+                    "display_name": "",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "metaNavItem",
+                        "dataNavItem",
+                        "moleculeNavSection"
+                    ],
+                    "folder_slug": "data/nav-items/",
+                    "minimum": 1,
+                    "maximum": 3,
+                    "id": "IiaV-fZ8QLSA9F6dJ9c4rw"
+                },
+                "mobileNavigation": {
+                    "type": "section",
+                    "pos": 19,
+                    "keys": [
+                        "mobileNavItems",
+                        "mobileCta",
+                        "mobileSecondaryNavItems"
+                    ],
+                    "id": "jbBezmtsTuaf1f9s3C34pA"
+                },
+                "mobileNavItems": {
+                    "type": "options",
+                    "pos": 20,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataNavItem"],
+                    "folder_slug": "data/nav-items",
+                    "required": true,
+                    "id": "k4gQf4OyRKuGyVpRpoxuBA"
+                },
+                "mobileCta": {
+                    "type": "option",
+                    "pos": 21,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataCallToAction"],
+                    "use_uuid": true,
+                    "required": false,
+                    "id": "rAX7yIQ8QNuCnsmy76iqAg"
+                },
+                "mobileSecondaryNavItems": {
+                    "type": "bloks",
+                    "pos": 22,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleCta"],
+                    "required": false,
+                    "id": "0cgiC4moSguzx6nu59by9g"
+                },
+                "tab-82e3fd2e-d642-43ab-a0c8-f09928267299": {
+                    "display_name": "Header",
+                    "keys": [
+                        "desktopNavigationRight",
+                        "desktopNavigation",
+                        "mobileNavItems",
+                        "mobileNavCta",
+                        "mobileCta",
+                        "mobileMenu",
+                        "desktopNavItems",
+                        "desktopNavigation",
+                        "mobileSecondaryLinks",
+                        "mobileSecondaryNavigation",
+                        "mobileSecondaryNavItems",
+                        "mobileNavigation"
+                    ],
+                    "pos": 23,
+                    "type": "tab",
+                    "name": "tab-82e3fd2e-d642-43ab-a0c8-f09928267299",
+                    "id": "guP9LtZCQ6ugyPCZKCZymQ"
+                },
+                "tab-f8db37f2-5763-4d29-bf92-ed3e4af13c24": {
+                    "display_name": "Footer",
+                    "keys": [
+                        "footerNavigation",
+                        "secondaryLinks",
+                        "secondaryNavigation",
+                        "secondaryFooterNavigation",
+                        "footerSecondaryNavigation",
+                        "footerPoliciesNavigation",
+                        "footerFormTitle",
+                        "footerFormConsent",
+                        "footerCompanyInfo"
+                    ],
+                    "pos": 24,
+                    "type": "tab",
+                    "name": "tab-f8db37f2-5763-4d29-bf92-ed3e4af13c24",
+                    "id": "-Ns38ldjTSm_ku0-SvE8JA"
+                },
+                "tab-a1d84558-ab37-44c8-bffc-3123e77d0cf4": {
+                    "display_name": "Brand",
+                    "keys": ["brandPattern", "brandVideo"],
+                    "pos": 25,
+                    "type": "tab",
+                    "id": "odhFWKs3RMi__DEj530M9A"
+                },
+                "tab-26b378fe-9f01-4882-a1ca-93b242839926": {
+                    "display_name": "Property",
+                    "keys": [
+                        "homeviewsOverallCount",
+                        "homeviewsOverallScore",
+                        "apartmentTypes"
+                    ],
+                    "pos": 26,
+                    "type": "tab",
+                    "id": "JrN4_p8BSIKhypOyQoOZJg"
+                },
+                "apartmentTypes": {
+                    "type": "bloks",
+                    "pos": 27,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["dataApartmentTypes"],
+                    "id": "xsmTRim3Qf6zUCmolwlNPg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Global Options",
+            "component_group_uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "color": "#395ece",
+            "icon": "block-@",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Data"
+        },
+        {
+            "name": "moleculeIconList",
+            "display_name": "Icon List",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.258Z",
+            "updated_at": "2025-03-05T14:56:12.258Z",
+            "id": 7047038,
+            "schema": {
+                "iconList": {
+                    "type": "options",
+                    "pos": 0,
+                    "required": true,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["dataTextIconPair"],
+                    "maximum": 6,
+                    "minimum": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataTextIconPair"],
+                    "min_options": "1",
+                    "max_options": "",
+                    "id": "B7ZulJy7Q3qzJJCWxs9Qnw"
+                },
+                "hideIconsOnMobile": {
+                    "type": "boolean",
+                    "pos": 1,
+                    "display_name": "",
+                    "inline_label": true,
+                    "tooltip": true,
+                    "description": "This will hide the icons but still display the text.",
+                    "id": "-jFjA3PsSM6C1tvKEnHHeA"
+                }
+            },
+            "image": null,
+            "preview_field": "iconList",
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Icon List",
+            "component_group_uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "color": "#3EA6A6",
+            "icon": "block-add",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Molecules"
+        },
+        {
+            "name": "moleculeNavSection",
+            "display_name": "Nav Section",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.238Z",
+            "updated_at": "2025-03-05T14:56:12.238Z",
+            "id": 7047037,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "description": "This is the text that shows in the header.",
+                    "max_length": 15,
+                    "id": "lF4Ow6mjRwGbG9iOmN8X8A"
+                },
+                "navItems": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "required": true,
+                    "filter_content_type": ["dataNavItem"],
+                    "folder_slug": "data/nav-items/",
+                    "min_options": "",
+                    "description": "Create new nav item stories in data/nav-items. These can then be selected here.",
+                    "id": "CPacez_mQtmRFFKw9d1TcQ"
+                },
+                "displayContact": {
+                    "type": "boolean",
+                    "pos": 2,
+                    "display_name": "Do you want to display the contact information?",
+                    "description": "Turn this on to add the sites contact information under the nav.",
+                    "id": "9oeyymc0ROOBg-yiH84Hnw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Nav Section",
+            "component_group_uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "color": "#00b3b0",
+            "icon": "block-monitor",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Molecules"
+        },
+        {
+            "name": "moleculeParagraphColumns",
+            "display_name": "Paragraph Columns",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.323Z",
+            "updated_at": "2025-03-05T14:56:12.323Z",
+            "id": 7047041,
+            "schema": {
+                "columns": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleParagraph"],
+                    "required": true,
+                    "minimum": 1,
+                    "maximum": 2,
+                    "description": "Add 2 Paragraph blocks to split them over 2 columns.",
+                    "id": "rFpSsSIASbiaCGmE8oqkCg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Paragraph Columns",
+            "component_group_uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "color": "#3EA6A6",
+            "icon": "block-table",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Molecules"
+        },
+        {
+            "name": "moleculeSectionTitle",
+            "display_name": "Section Title",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.309Z",
+            "updated_at": "2025-03-05T14:56:12.309Z",
+            "id": 7047040,
+            "schema": {
+                "sectionTitle": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleCta",
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleParagraph",
+                        "dataTextIconPair",
+                        "moleculeIconList"
+                    ],
+                    "minimum": 1,
+                    "id": "guLC8UnkTl6DGUppI-LK6w"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Section Title",
+            "component_group_uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "color": "#00b3b0",
+            "icon": "block-text-c",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Molecules"
+        },
+        {
+            "name": "moleculeSingleCard",
+            "display_name": "Single Card",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.274Z",
+            "updated_at": "2025-04-01T15:14:58.895Z",
+            "id": 7047039,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "minimum": 1,
+                    "maximum": 3,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleParagraph"
+                    ],
+                    "display_name": "",
+                    "id": "YZL99chfRsG_AK94JLFLBw"
+                },
+                "media": {
+                    "type": "asset",
+                    "pos": 1,
+                    "required": true,
+                    "filetypes": ["images"],
+                    "id": "X1Olgx_6R6ObTtHIeV5FJA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [
+                {
+                    "id": 2511017,
+                    "name": "Default",
+                    "component_id": 7047039,
+                    "image": "",
+                    "icon": "block-image",
+                    "color": "#F5A928",
+                    "description": ""
+                }
+            ],
+            "preset_id": null,
+            "real_name": "Single Card",
+            "component_group_uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "color": "#00b3b0",
+            "icon": "block-center-m",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Molecules"
+        },
+        {
+            "name": "moleculeTextMediaCols",
+            "display_name": "Text And Media Columns",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.338Z",
+            "updated_at": "2025-03-05T14:56:12.338Z",
+            "id": 7047042,
+            "schema": {
+                "columns": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "minimum": 1,
+                    "maximum": 2,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleMedia", "atomBodyCopy"],
+                    "id": "2P9QgK6TT9eDAbb-CgLwgQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Text And Media Columns",
+            "component_group_uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "color": "#3ea6a6",
+            "icon": "block-text-img-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Molecules"
+        },
+        {
+            "name": "organismTextContent",
+            "display_name": "Text Content",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.441Z",
+            "updated_at": "2025-03-05T14:56:12.441Z",
+            "id": 7047044,
+            "schema": {
+                "content": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "moleculeTransportLinks",
+                        "moleculeTextBlock",
+                        "moleculeBenefitsList",
+                        "atomSingleCta"
+                    ],
+                    "component_group_whitelist": [],
+                    "id": "zCxv7nyiTqmM6mbviiTyWg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Text Content",
+            "component_group_uuid": null,
+            "color": "#1b243f",
+            "icon": "block-text-img-c",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {}
+        },
+        {
+            "name": "pa",
+            "display_name": null,
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.454Z",
+            "updated_at": "2025-03-05T14:56:12.454Z",
+            "id": 7047045,
+            "schema": {},
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "pa",
+            "component_group_uuid": null,
+            "color": null,
+            "icon": null,
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {}
+        },
+        {
+            "name": "sectionAmenitiesCarousel",
+            "display_name": "Amenities Carousel",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.646Z",
+            "updated_at": "2025-04-01T16:33:00.039Z",
+            "id": 7047005,
+            "schema": {
+                "pretitle": {
+                    "type": "text",
+                    "pos": 0,
+                    "id": "lyC6zOilTweRXNjdaZzVPQ"
+                },
+                "title": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSpacedTitle"],
+                    "id": "3eCn1oJdR5O9nyagDt0qWQ",
+                    "maximum": 1
+                },
+                "body": {
+                    "type": "bloks",
+                    "pos": 2,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleParagraph"
+                    ],
+                    "id": "gFDV-d-bRJiL6Gf6cTLm4Q",
+                    "minimum": 1,
+                    "maximum": 3
+                },
+                "amenities": {
+                    "type": "options",
+                    "pos": 3,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["moleculeSingleCard"],
+                    "folder_slug": "data/amenity-cards",
+                    "required": true,
+                    "id": "ETV_mhUzQA2oB4MQdstOMA"
+                },
+                "invertOrder": {
+                    "type": "boolean",
+                    "pos": 4,
+                    "description": "Enabling this will place the carousel on the left on desktop, and the text content on the right on desktop.",
+                    "id": "Ikz5v2HIRYaFenUmMurOxA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Amenities Carousel",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-table-2",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionApartmentFloorplans",
+            "display_name": "Apartment Floorplans",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.662Z",
+            "updated_at": "2025-06-04T13:11:58.157Z",
+            "id": 7047006,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "minimum": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleParagraph"
+                    ],
+                    "id": "8lVXLlcJTl2FB54MUsTzvw"
+                },
+                "Floorplans": {
+                    "type": "section",
+                    "pos": 2,
+                    "id": "9Lu63QuyQWyW5ZrVBDNBIA",
+                    "keys": [
+                        "studioPlan",
+                        "oneBedPlan",
+                        "twoBedPlan",
+                        "threeBedPlan"
+                    ]
+                },
+                "smallPrint": {
+                    "type": "text",
+                    "pos": 3,
+                    "description": "",
+                    "tooltip": false,
+                    "id": "vHabNU5gSfqMzU1GK-VYeg"
+                },
+                "studioPlan": {
+                    "type": "asset",
+                    "pos": 3,
+                    "required": true,
+                    "id": "EZeDrzAdReuGIgejJ0Xe9Q",
+                    "filetypes": ["images"]
+                },
+                "oneBedPlan": {
+                    "type": "asset",
+                    "pos": 4,
+                    "filetypes": ["images"],
+                    "required": true,
+                    "id": "xt_zgiFdShqyaarL5xM9hw"
+                },
+                "twoBedPlan": {
+                    "type": "asset",
+                    "pos": 5,
+                    "id": "BjlJPdUOQ9y7l9_DJPsh7g",
+                    "required": true,
+                    "filetypes": ["images"]
+                },
+                "threeBedPlan": {
+                    "type": "asset",
+                    "pos": 6,
+                    "id": "CZpxvrFnRSS1T0c5t3hu6w",
+                    "required": true,
+                    "filetypes": ["images"]
+                }
+            },
+            "image": "",
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Apartment Floorplans",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-resize-fc",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionApartmentTypes",
+            "display_name": "Apartment Types",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.517Z",
+            "updated_at": "2025-06-04T12:14:30.327Z",
+            "id": 7046997,
+            "schema": {
+                "sectionTitle": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleCta",
+                        "moleculeParagraphColumns"
+                    ],
+                    "required": true,
+                    "minimum": 1,
+                    "id": "P-eOXpqySa6mz9LlLHoRtg"
+                },
+                "skyBackgroundEnabled": {
+                    "type": "boolean",
+                    "pos": 1,
+                    "id": "Jib_7KrHQqWTyWrPzm404g"
+                }
+            },
+            "image": "//a.storyblok.com/f/329004/x/99231f4f84/screenshot-2025-03-19-at-13-47-08.png",
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Apartment Types",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-text-img-r-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionCardsBlock",
+            "display_name": "Cards Block",
+            "description": "A single block for multiple cards",
+            "created_at": "2025-03-05T14:56:11.688Z",
+            "updated_at": "2025-03-05T14:56:11.688Z",
+            "id": 7047008,
+            "schema": {
+                "sectionTitle": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleCta",
+                        "atomSingleIcon",
+                        "moleculeParagraphColumns",
+                        "atomSingleTitle"
+                    ],
+                    "id": "H6gfkTluSiel78mheG2Ncg"
+                },
+                "body": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleCard",
+                        "moleculeSingleCard"
+                    ],
+                    "description": "Multiple cards allowed which will form a grid - best in 3s.",
+                    "id": "OBEeC5ygSoat0YxCDM79Jw",
+                    "required": true,
+                    "minimum": 1
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Cards Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-table-2",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionContactForm",
+            "display_name": "Contact Form",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.605Z",
+            "updated_at": "2025-03-05T14:56:11.605Z",
+            "id": 7047002,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": true,
+                    "id": "WigQSs9sRTCB_t64JhFLRg"
+                },
+                "consentTitle": {
+                    "type": "text",
+                    "pos": 1,
+                    "required": true,
+                    "id": "QlmKOQ6DS4KBLEcehFbpyw"
+                },
+                "consentText": {
+                    "type": "richtext",
+                    "pos": 2,
+                    "required": true,
+                    "customize_toolbar": true,
+                    "toolbar": ["link", "paste-action"],
+                    "id": "HIhtlIC1SvK5Oh17dP9KVg"
+                },
+                "buttonText": {
+                    "type": "text",
+                    "pos": 3,
+                    "required": true,
+                    "id": "HrstDyFOQYe9_urpKLl5cg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Contact Form",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-email",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionEmbeddedForm",
+            "display_name": "Embedded Form",
+            "description": null,
+            "created_at": "2025-05-13T10:13:22.179Z",
+            "updated_at": "2025-05-13T10:14:29.591Z",
+            "id": 7333530,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "required": false,
+                    "id": "ZChl77AAQRq3OPpResITeA"
+                },
+                "formId": {
+                    "type": "text",
+                    "pos": 1,
+                    "required": true,
+                    "id": "YfQ9eapZQ2y7swIKk7fMIA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Embedded Form",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-add",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionFactsBlock",
+            "display_name": "Facts Block",
+            "description": "",
+            "created_at": "2025-04-02T15:32:43.511Z",
+            "updated_at": "2025-04-02T17:25:45.446Z",
+            "id": 7160497,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "maximum": 2,
+                    "required": true,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleTitle",
+                        "atomSingleBrow"
+                    ],
+                    "id": "gxocO40rTa2kCLhElfJR5g"
+                },
+                "facts": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "filter_content_type": ["dataSingleFact"],
+                    "folder_slug": "data",
+                    "required": true,
+                    "max_options": "4",
+                    "id": "yf7dUPTQSR-6dxiAioFOrQ",
+                    "maximum": 4,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleFact"]
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Facts Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-text-c",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionFaqBlock",
+            "display_name": "FAQ Block",
+            "description": "A collection of FAQs with a 'category' title.",
+            "created_at": "2025-03-05T14:56:11.701Z",
+            "updated_at": "2025-03-05T14:56:11.701Z",
+            "id": 7047009,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "id": "f30O8sPzQSGnm-qj2rwYww",
+                    "required": true
+                },
+                "faqs": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataSingleFaq"],
+                    "display_name": "FAQs",
+                    "id": "7aEdtJ2ySHCDkQb_c4xxyw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "FAQ Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-tag",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionFaqBlockScanner",
+            "display_name": "FAQ Block Scanner",
+            "description": "A block that scans for FAQs on the page, and then generates hotlinks to them.",
+            "created_at": "2025-03-05T14:56:11.714Z",
+            "updated_at": "2025-03-05T14:56:11.714Z",
+            "id": 7047010,
+            "schema": {},
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "FAQ Block Scanner",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-tag",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionFeaturedHomes",
+            "display_name": "Featured Homes",
+            "description": null,
+            "created_at": "2025-05-19T11:52:48.794Z",
+            "updated_at": "2025-05-19T11:54:58.547Z",
+            "id": 7354789,
+            "schema": {
+                "items": {
+                    "type": "options",
+                    "pos": 0,
+                    "description": "Add the apartments you would like to feature.",
+                    "minimum": 4,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["templateRoom"],
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["templateRoom"],
+                    "min_options": "4",
+                    "required": true,
+                    "id": "NoPD9PXNRVCOaHZcsFQRwA"
+                },
+                "featuredTitle": {
+                    "type": "text",
+                    "pos": 1,
+                    "required": true,
+                    "id": "-N1xXuvUTwahzbxqNebUdw",
+                    "description": "Title that displays when viewing featured homes."
+                },
+                "featuredSubtitle": {
+                    "type": "text",
+                    "pos": 2,
+                    "required": true,
+                    "id": "0C37sTE1SSGaitlN7ayTzw",
+                    "description": "Subtitle that displays when viewing featured homes."
+                },
+                "recentTitle": {
+                    "type": "text",
+                    "pos": 3,
+                    "id": "efmPBtTOR6mGZQVN9Pitmw",
+                    "description": "Title that displays when viewing recently viewed homes.",
+                    "required": true
+                },
+                "recentSubtitle": {
+                    "type": "text",
+                    "pos": 4,
+                    "id": "KFiTZ26JTf6S2ru8dnNkhQ",
+                    "description": "Subtitle that displays when viewing recently viewed homes.",
+                    "required": true
+                }
+            },
+            "image": "//a.storyblok.com/f/329004/x/c3ab1a869b/5142e993-c699-4768-9363-865cdda96a91.png",
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Featured Homes",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-table-2",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionFitTextAndCards",
+            "display_name": "Fit Text & Cards",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.632Z",
+            "updated_at": "2025-03-20T12:21:52.938Z",
+            "id": 7047004,
+            "schema": {
+                "pretitle": {
+                    "type": "text",
+                    "pos": 0,
+                    "id": "w9RhecrkSJmprWt7gH8aiw"
+                },
+                "title": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "required": true,
+                    "id": "qwVw51w4R4eHWWusQEIRQw",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSpacedTitle"]
+                },
+                "subtitle": {
+                    "type": "textarea",
+                    "pos": 2,
+                    "id": "GVL6OSXRQgOlqjEWl6XW3w"
+                },
+                "thinnerThanFullWidth": {
+                    "type": "boolean",
+                    "pos": 3,
+                    "description": "Enable this to have your text a little thinner than full width, around 80-85%.",
+                    "id": "G92Q6c8TSTG3K8I3qQMQOw"
+                },
+                "theme": {
+                    "type": "option",
+                    "pos": 4,
+                    "use_uuid": true,
+                    "options": [
+                        {
+                            "_uid": "b30c514d-3eb1-4386-a675-4fded5008b86",
+                            "name": "Default",
+                            "value": "default"
+                        },
+                        {
+                            "_uid": "bce36c7c-e938-47fa-8a7b-5a5f104958fa",
+                            "value": "pink",
+                            "name": "Pink"
+                        }
+                    ],
+                    "default_value": "default",
+                    "id": "6wOSejDJQdiPekhaguhuGQ"
+                },
+                "cards": {
+                    "type": "bloks",
+                    "pos": 5,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleCard",
+                        "moleculeSingleCard"
+                    ],
+                    "id": "FDDH9F3kTFuSD0jk-UWSMQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Fit Text & Cards",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-text-img-r-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionGalleryCarousel",
+            "display_name": "Gallery Carousel",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.490Z",
+            "updated_at": "2025-05-12T14:05:23.071Z",
+            "id": 7046995,
+            "schema": {
+                "media": {
+                    "type": "multiasset",
+                    "pos": 0,
+                    "required": true,
+                    "filetypes": ["images"],
+                    "id": "p5fgTjOSQYSLVybBB2Q7Xg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Gallery Carousel",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-image",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionGenericContent",
+            "display_name": "Generic Content",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.475Z",
+            "updated_at": "2025-03-31T14:18:31.871Z",
+            "id": 7046994,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleCta",
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "moleculeParagraphColumns",
+                        "dataTextIconPair",
+                        "atomFixedContent"
+                    ],
+                    "required": true,
+                    "minimum": 1,
+                    "id": "RBS3zo8fRjOvxqoUitxJ5g"
+                },
+                "theme": {
+                    "type": "option",
+                    "pos": 1,
+                    "use_uuid": true,
+                    "description": "Choose a background colour.",
+                    "tooltip": true,
+                    "options": [
+                        {
+                            "_uid": "2bcacf89-c9ed-4f38-9383-f182470ae790",
+                            "name": "Maroon",
+                            "value": "maroon"
+                        },
+                        {
+                            "_uid": "f979c132-5880-4fbb-a0b9-b0e6008c7704",
+                            "value": "pink",
+                            "name": "Pink"
+                        },
+                        {
+                            "_uid": "a129a994-5eee-4313-bf50-ab2141fef452",
+                            "value": "",
+                            "name": "Transparent"
+                        }
+                    ],
+                    "default_value": "transparent",
+                    "id": "TJ56y8CMQzeBpMbcamtbVg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Generic Content",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-text-c",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionGenericHero",
+            "display_name": "Generic Hero",
+            "description": null,
+            "created_at": "2025-03-05T14:56:12.399Z",
+            "updated_at": "2025-03-05T14:56:12.399Z",
+            "id": 7047043,
+            "schema": {
+                "sectionTitle": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle"
+                    ],
+                    "id": "GkzhsC5wTdyGMSLPAEZmog"
+                },
+                "displayOpeningDate": {
+                    "type": "boolean",
+                    "pos": 1,
+                    "description": "Turn this on to display the opening date set in the global options.",
+                    "translatable": false,
+                    "tooltip": true,
+                    "id": "_WWFIBcGQ8qoX_Om24Wdwg"
+                },
+                "images": {
+                    "type": "multiasset",
+                    "pos": 2,
+                    "required": true,
+                    "filetypes": ["images"],
+                    "allow_external_url": true,
+                    "id": "8-77q7EiSfCtFuOasqHIqA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Generic Hero",
+            "component_group_uuid": "28e9189d-37fa-4846-8380-8c6d8ce46cdd",
+            "color": "#ff6159",
+            "icon": "block-resize-fc",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Archive (unused)"
+        },
+        {
+            "name": "sectionHeroBlock",
+            "display_name": "Hero Block",
+            "description": "",
+            "created_at": "2025-03-05T14:56:11.739Z",
+            "updated_at": "2025-04-23T14:37:34.775Z",
+            "id": 7047012,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "maximum": 3,
+                    "minimum": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleParagraph"
+                    ],
+                    "id": "OAkHyA5VTvq8ER1IGMwLzQ"
+                },
+                "media": {
+                    "type": "multiasset",
+                    "pos": 1,
+                    "filetypes": ["images"],
+                    "required": true,
+                    "id": "_X3h1VUVRDaxcByOWfBUrw"
+                },
+                "showMediaCaptions": {
+                    "type": "boolean",
+                    "pos": 2,
+                    "description": "Enabling this will show the media captions if they exist.",
+                    "id": "pVemYg3BSXy8Pvt9e2HHqg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Hero Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-resize-fc",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionHighlightsBlock",
+            "display_name": "Highlights Block",
+            "description": "",
+            "created_at": "2025-03-05T14:56:11.767Z",
+            "updated_at": "2025-04-23T11:04:39.578Z",
+            "id": 7047014,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "minimum": 1,
+                    "maximum": 3,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleTitle",
+                        "atomSingleBrow"
+                    ],
+                    "id": "LvgAjV-TTJWluCmhXdjtVw",
+                    "required": true
+                },
+                "cards": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataMagazineHighlight"],
+                    "required": true,
+                    "min_options": "3",
+                    "description": "Select your magazine cards.",
+                    "max_options": "3",
+                    "id": "l6xJVICVQJKLnu8ZFUVPJg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Highlights Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-buildin",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionJournalCarousel",
+            "display_name": "Journal Carousel",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.753Z",
+            "updated_at": "2025-03-05T14:56:11.753Z",
+            "id": 7047013,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle",
+                        "atomSingleParagraph",
+                        "atomSingleIcon"
+                    ],
+                    "id": "gFDV-d-bRJiL6Gf6cTLm4Q",
+                    "minimum": 1,
+                    "maximum": 5
+                },
+                "cards": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["templateJournal"],
+                    "folder_slug": "",
+                    "required": true,
+                    "id": "ETV_mhUzQA2oB4MQdstOMA",
+                    "display_name": "Cards"
+                },
+                "invertOrder": {
+                    "type": "boolean",
+                    "pos": 2,
+                    "description": "Enabling this will place the carousel on the left on desktop, and the text content on the right on desktop.",
+                    "id": "Ikz5v2HIRYaFenUmMurOxA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Journal Carousel",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-table-2",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionJournalListings",
+            "display_name": "Journal Listings",
+            "description": "Listings of Journals.",
+            "created_at": "2025-03-05T14:56:11.726Z",
+            "updated_at": "2025-05-28T14:55:45.753Z",
+            "id": 7047011,
+            "schema": {
+                "message": {
+                    "type": "section",
+                    "pos": 0,
+                    "display_name": "No options to configure here.",
+                    "id": "6ImqlRwgTjKH0llC8zzyYw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Journal Listings",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-text-img-r-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionLocationMap",
+            "display_name": "Location Map",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.590Z",
+            "updated_at": "2025-03-19T15:47:37.874Z",
+            "id": 7047001,
+            "schema": {
+                "sectionTitle": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle"
+                    ],
+                    "required": true,
+                    "display_name": "",
+                    "minimum": 1,
+                    "id": "kcfz0colRO2sNXs0m0UWyw"
+                },
+                "pointsOfInterestTitle": {
+                    "type": "text",
+                    "pos": 1,
+                    "id": "ketckGs5R6acQ7kiCGmJTg"
+                },
+                "pointsOfInterest": {
+                    "type": "options",
+                    "pos": 2,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataPointsOfInterest"],
+                    "required": true,
+                    "min_options": "1",
+                    "id": "HgtIHpwHQ4St-noUnE8zIw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Location Map",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-map-pin",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionMediaTiles",
+            "display_name": "Media Tiles",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.421Z",
+            "updated_at": "2025-05-06T16:11:13.385Z",
+            "id": 7046990,
+            "schema": {
+                "media": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSingleMediaTile"],
+                    "minimum": 1,
+                    "tooltip": true,
+                    "description": "Add between 1 and 2 images. Adding a single image will make the image span the entire width of the screen. Adding 2 images will display them side by side.",
+                    "id": "PnKjnXzSQP-U2wVRmxPnXg",
+                    "required": true
+                }
+            },
+            "image": "",
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Media Tiles",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-1-2block",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionPerksBlock",
+            "display_name": "Perks",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.529Z",
+            "updated_at": "2025-03-05T14:56:11.529Z",
+            "id": 7046998,
+            "schema": {
+                "perkData": {
+                    "type": "option",
+                    "pos": 3,
+                    "use_uuid": true,
+                    "source": "internal_stories",
+                    "filter_content_type": ["dataPerks"],
+                    "id": "Eq7eAbUvQgefmu_4QpClXQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Perks",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-text-img-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionPropertyFloorplan",
+            "display_name": "Property Floorplan",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.461Z",
+            "updated_at": "2025-03-05T14:56:11.461Z",
+            "id": 7046993,
+            "schema": {},
+            "image": "",
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Property Floorplan",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-center-m",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionReviewsBlock",
+            "display_name": "Reviews Block",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.436Z",
+            "updated_at": "2025-03-18T16:38:35.216Z",
+            "id": 7046991,
+            "schema": {
+                "sectionTitle": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle"
+                    ],
+                    "required": true,
+                    "minimum": 1,
+                    "id": "7linHLD0Qli9KiTF9JQvEA"
+                },
+                "reviews": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataSingleReview"],
+                    "min_options": "1",
+                    "required": true,
+                    "max_options": "3",
+                    "folder_slug": "data/reviews",
+                    "id": "5g9fC9BfRhylt7sR7QuATA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Reviews Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-comment",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionSignpostsBlock",
+            "display_name": "Signposts",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.545Z",
+            "updated_at": "2025-03-27T16:21:04.928Z",
+            "id": 7046999,
+            "schema": {
+                "signposts": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "min_options": "1",
+                    "max_options": "2",
+                    "filter_content_type": ["dataSignpost"],
+                    "required": true,
+                    "minimum": 1,
+                    "maximum": 2,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["moleculeSingleCard"],
+                    "id": "Dhm_7-GWQ9azAKnhBLTE4A"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Signposts",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-table",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionSocialFeed",
+            "display_name": "Social Feed",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.448Z",
+            "updated_at": "2025-03-05T14:56:11.448Z",
+            "id": 7046992,
+            "schema": {},
+            "image": "//a.storyblok.com/f/305228/x/aedd77b7d8/socialfeed.png",
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Social Feed",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-share",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionStandaloneGraphic",
+            "display_name": "Standalone Graphic",
+            "description": "",
+            "created_at": "2025-04-03T15:30:41.696Z",
+            "updated_at": "2025-05-15T15:01:07.451Z",
+            "id": 7165437,
+            "schema": {
+                "title": {
+                    "type": "text",
+                    "pos": 0,
+                    "tooltip": true,
+                    "description": "Used for accessibility to describe standalone graphic.",
+                    "required": true,
+                    "id": "tiOXdUEFSCysiSSjdG6kNA"
+                },
+                "graphic": {
+                    "type": "option",
+                    "pos": 1,
+                    "use_uuid": true,
+                    "required": true,
+                    "default_value": "exploreExpressExhale",
+                    "options": [
+                        {
+                            "_uid": "e10a6183-d09a-4788-ad07-5b0fa1c6b260",
+                            "name": "Explore. Express. Exhale",
+                            "value": "exploreExpressExhale"
+                        },
+                        {
+                            "_uid": "68b9e876-53b4-41de-93ea-009661fb42e3",
+                            "value": "allYouNeedUnderOneRoof",
+                            "name": "All You Need In One Place"
+                        }
+                    ],
+                    "id": "eOkg3eYuS9WnKGKjgHSqYA"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Standalone Graphic",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-resize-fc",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionStepsBlock",
+            "display_name": "Steps Block",
+            "description": "",
+            "created_at": "2025-04-04T09:40:59.810Z",
+            "updated_at": "2025-04-04T10:41:48.530Z",
+            "id": 7168913,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleBrow",
+                        "atomSingleTitle"
+                    ],
+                    "id": "cL02bB12QFOdfyUFAa5aRQ",
+                    "maximum": 2
+                },
+                "steps": {
+                    "type": "options",
+                    "pos": 1,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataSingleStep"],
+                    "min_options": "1",
+                    "max_options": "4",
+                    "folder_slug": "data/steps",
+                    "id": "CjbN4lOzRLK0VfHOI3J0Vw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Steps Block",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-table-2",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionTextWithCarousel",
+            "display_name": "Text With Carousel",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.559Z",
+            "updated_at": "2025-03-26T16:51:50.117Z",
+            "id": 7047000,
+            "schema": {
+                "data": {
+                    "type": "option",
+                    "pos": 0,
+                    "source": "internal_stories",
+                    "entry_appearance": "link",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["dataTextWithCarousel"],
+                    "required": true,
+                    "min_options": "1",
+                    "max_options": "1",
+                    "default_value": "\"58daf30e-1845-4aa2-ac12-d0a94834d500\"",
+                    "use_uuid": true,
+                    "id": "iJMlMkBiQO-LVt812Q5ZFA"
+                },
+                "direction": {
+                    "type": "option",
+                    "pos": 1,
+                    "use_uuid": true,
+                    "tooltip": true,
+                    "description": "Choose the content direction of the text and carousel columns.",
+                    "options": [
+                        {
+                            "_uid": "2d5035a4-808e-4ec3-a814-f7e4407b1b40",
+                            "name": "Normal",
+                            "value": "normal"
+                        },
+                        {
+                            "_uid": "66e501e0-0871-45c5-921a-a28e07d8668e",
+                            "value": "reverse",
+                            "name": "Reverse"
+                        }
+                    ],
+                    "default_value": "Normal",
+                    "id": "jO8EudQ9Sxyep-RdUfCffQ"
+                },
+                "imagePattern": {
+                    "type": "boolean",
+                    "pos": 2,
+                    "id": "4wUBcnbYQGSgQCLWsKj-HQ",
+                    "tooltip": true,
+                    "description": "Whether to apply / unapply the circular pattern on the image."
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [
+                {
+                    "id": 2511016,
+                    "name": "Default",
+                    "component_id": 7047000,
+                    "image": "",
+                    "icon": "",
+                    "color": "",
+                    "description": ""
+                }
+            ],
+            "preset_id": null,
+            "real_name": "Text With Carousel",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ff6159",
+            "icon": "block-text-img-r",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionUniqueSellingPoints",
+            "display_name": "Unique Selling Points",
+            "description": null,
+            "created_at": "2025-03-18T14:39:47.686Z",
+            "updated_at": "2025-03-18T15:57:49.319Z",
+            "id": 7100946,
+            "schema": {
+                "usps": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "id": "0Jt0G06JTg-Wmqe5TqUOrg",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomUniqueSellingPoint"]
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Unique Selling Points",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#ef6252",
+            "icon": "block-shield-2",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "sectionUnitListings",
+            "display_name": "Unit Listings",
+            "description": "Listings of homes.",
+            "created_at": "2025-03-05T14:56:11.675Z",
+            "updated_at": "2025-03-05T14:56:11.675Z",
+            "id": 7047007,
+            "schema": {
+                "message": {
+                    "type": "section",
+                    "pos": 0,
+                    "display_name": "No options to configure here.",
+                    "id": "jGfWIL6aRoOb1gajSiSCfQ"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": false,
+            "preview_tmpl": null,
+            "is_nestable": true,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Unit Listings",
+            "component_group_uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "color": "#EF6252",
+            "icon": "block-table",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Body"
+        },
+        {
+            "name": "templateHome",
+            "display_name": "Home Page",
+            "description": null,
+            "created_at": "2025-03-25T15:05:28.001Z",
+            "updated_at": "2025-05-19T11:57:01.185Z",
+            "id": 7128308,
+            "schema": {
+                "heroPrimary": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "id": "1AHy0bKURaiJI6ERqF8KeQ",
+                    "tooltip": true,
+                    "description": "Add the '*' symbol to indicate how many characters a word will be moved.",
+                    "display_name": "Hero Primary",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSpacedTitle"],
+                    "maximum": 1
+                },
+                "body": {
+                    "type": "bloks",
+                    "pos": 5,
+                    "key": "body",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "sectionUnitListings",
+                        "sectionTextWithCarousel",
+                        "sectionStatementLarge",
+                        "sectionSocialFeed",
+                        "sectionSignpostsBlock",
+                        "sectionReviewsBlock",
+                        "sectionPropertyFloorplan",
+                        "sectionPerksBlock",
+                        "sectionPatternDivider",
+                        "sectionMediaTiles",
+                        "sectionLocationMap",
+                        "sectionGenericContent",
+                        "sectionGalleryCarousel",
+                        "sectionFitTextAndCards",
+                        "sectionFaqBlockScanner",
+                        "sectionFaqBlock",
+                        "sectionContactForm",
+                        "sectionCardsBlock",
+                        "sectionApartmentTypes",
+                        "sectionApartmentFloorplans",
+                        "sectionAmenitiesCarousel",
+                        "sectionHeroBlock",
+                        "sectionJournalCarousel",
+                        "sectionHighlightsBlock",
+                        "sectionUniqueSellingPoints",
+                        "sectionFeaturedHomes"
+                    ],
+                    "component_group_whitelist": [],
+                    "id": "GXojepdRQnil2l84i7xcaw"
+                },
+                "metaTags": {
+                    "type": "custom",
+                    "pos": 6,
+                    "field_type": "seo-metatags",
+                    "options": [],
+                    "id": "a-GwnH0LSyOzHwZkgG9ECw"
+                },
+                "tab-4d359c69-ed9f-4f6b-86ef-4316672aaee9": {
+                    "display_name": "Hero",
+                    "keys": ["heroText", "showPageTitle", "heroPrimary"],
+                    "pos": 7,
+                    "type": "tab",
+                    "id": "TTWcae2fT2uG70MWZyqu6Q"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Home Page",
+            "component_group_uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "color": "#fbce41",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Templates"
+        },
+        {
+            "name": "templateJournal",
+            "display_name": "Journal",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.347Z",
+            "updated_at": "2025-03-05T14:56:11.347Z",
+            "id": 7046988,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "key": "body",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomBodyCopy",
+                        "atomSingleMedia",
+                        "moleculeTextMediaCols",
+                        "atomBlockQuote",
+                        "atomSingleTitle"
+                    ],
+                    "component_group_whitelist": [],
+                    "id": "GXojepdRQnil2l84i7xcaw",
+                    "required": true,
+                    "minimum": 1
+                },
+                "metaTags": {
+                    "type": "custom",
+                    "pos": 2,
+                    "field_type": "seo-metatags",
+                    "options": [],
+                    "id": "a-GwnH0LSyOzHwZkgG9ECw"
+                },
+                "media": {
+                    "type": "asset",
+                    "pos": 3,
+                    "required": false,
+                    "filetypes": ["images"],
+                    "id": "K2nFYV0JRGyJbNpyVZVIYQ"
+                },
+                "showMediaCaptions": {
+                    "type": "boolean",
+                    "pos": 4,
+                    "description": "Enabling this will show the media captions if they exist.",
+                    "id": "1ZDXcAdvRXedkUbGsz4gxw"
+                },
+                "publishedDate": {
+                    "type": "datetime",
+                    "pos": 5,
+                    "field_type": null,
+                    "options": [],
+                    "required": true,
+                    "disable_time": true,
+                    "id": "TIdwRObHRJC4tMvwQRDk4g"
+                },
+                "tab-4d359c69-ed9f-4f6b-86ef-4316672aaee9": {
+                    "display_name": "Hero",
+                    "keys": [
+                        "media",
+                        "heroText",
+                        "showPageTitle",
+                        "showMediaCaptions",
+                        "publishedDate"
+                    ],
+                    "pos": 6,
+                    "type": "tab",
+                    "id": "TTWcae2fT2uG70MWZyqu6Q"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Journal",
+            "component_group_uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "color": "#fbce41",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Templates"
+        },
+        {
+            "name": "templateJournalCategory",
+            "display_name": "Journal Category",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.360Z",
+            "updated_at": "2025-03-05T14:56:11.360Z",
+            "id": 7046989,
+            "schema": {
+                "metaTags": {
+                    "type": "custom",
+                    "pos": 0,
+                    "field_type": "seo-metatags",
+                    "options": [],
+                    "id": "GXqomWPfT0yHntc7nMzm7w"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Journal Category",
+            "component_group_uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "color": "#f4cc48",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Templates"
+        },
+        {
+            "name": "templatePage",
+            "display_name": "Page",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.318Z",
+            "updated_at": "2025-05-13T10:16:57.554Z",
+            "id": 7046986,
+            "schema": {
+                "heroPrimary": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "required": true,
+                    "id": "1AHy0bKURaiJI6ERqF8KeQ",
+                    "tooltip": true,
+                    "description": "Add the '*' symbol to indicate how many characters a word will be moved.",
+                    "display_name": "Hero Primary",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": ["atomSpacedTitle"],
+                    "maximum": 1
+                },
+                "media": {
+                    "type": "multiasset",
+                    "pos": 2,
+                    "required": false,
+                    "filetypes": ["images"],
+                    "id": "K2nFYV0JRGyJbNpyVZVIYQ",
+                    "tooltip": true,
+                    "description": "If no images are present a title-only hero section will be displayed."
+                },
+                "showMediaCaptions": {
+                    "type": "boolean",
+                    "pos": 3,
+                    "description": "Enabling this will show the media captions if they exist.",
+                    "id": "1ZDXcAdvRXedkUbGsz4gxw"
+                },
+                "body": {
+                    "type": "bloks",
+                    "pos": 5,
+                    "key": "body",
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "sectionUnitListings",
+                        "sectionTextWithCarousel",
+                        "sectionStatementLarge",
+                        "sectionSocialFeed",
+                        "sectionSignpostsBlock",
+                        "sectionReviewsBlock",
+                        "sectionPropertyFloorplan",
+                        "sectionPerksBlock",
+                        "sectionPatternDivider",
+                        "sectionMediaTiles",
+                        "sectionLocationMap",
+                        "sectionGenericContent",
+                        "sectionGalleryCarousel",
+                        "sectionFitTextAndCards",
+                        "sectionFaqBlockScanner",
+                        "sectionFaqBlock",
+                        "sectionContactForm",
+                        "sectionCardsBlock",
+                        "sectionApartmentTypes",
+                        "sectionApartmentFloorplans",
+                        "sectionAmenitiesCarousel",
+                        "sectionHeroBlock",
+                        "sectionJournalCarousel",
+                        "sectionHighlightsBlock",
+                        "sectionUniqueSellingPoints",
+                        "sectionFactsBlock",
+                        "sectionStandaloneGraphic",
+                        "sectionStepsBlock",
+                        "sectionEmbeddedForm"
+                    ],
+                    "component_group_whitelist": [],
+                    "id": "GXojepdRQnil2l84i7xcaw"
+                },
+                "metaTags": {
+                    "type": "custom",
+                    "pos": 6,
+                    "field_type": "seo-metatags",
+                    "options": [],
+                    "id": "a-GwnH0LSyOzHwZkgG9ECw"
+                },
+                "tab-4d359c69-ed9f-4f6b-86ef-4316672aaee9": {
+                    "display_name": "Hero",
+                    "keys": [
+                        "media",
+                        "heroText",
+                        "showPageTitle",
+                        "heroPrimary",
+                        "showMediaCaptions"
+                    ],
+                    "pos": 7,
+                    "type": "tab",
+                    "id": "TTWcae2fT2uG70MWZyqu6Q"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Page",
+            "component_group_uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "color": "#fbce41",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Templates"
+        },
+        {
+            "name": "templateProperty",
+            "display_name": "Property",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.332Z",
+            "updated_at": "2025-05-12T10:40:25.909Z",
+            "id": 7046987,
+            "schema": {
+                "body": {
+                    "type": "bloks",
+                    "pos": 0,
+                    "id": "qufJ1XP2TGSRYcohx22MdQ"
+                },
+                "featuredPropertiesHeader": {
+                    "type": "bloks",
+                    "pos": 1,
+                    "restrict_type": "",
+                    "restrict_components": true,
+                    "component_whitelist": [
+                        "atomSingleTitle",
+                        "atomSingleBrow"
+                    ],
+                    "id": "THsyfmX3T7aJ1AShshlDeA",
+                    "maximum": 2,
+                    "minimum": 1,
+                    "required": true
+                },
+                "featuredProperties": {
+                    "type": "options",
+                    "pos": 2,
+                    "is_reference_type": true,
+                    "source": "internal_stories",
+                    "entry_appearance": "card",
+                    "allow_advanced_search": true,
+                    "filter_content_type": ["templateRoom"],
+                    "max_options": "4",
+                    "description": "Choosing features homes here will add them to the top of the listings page. This is not required.",
+                    "id": "9IL7gXp5R0aynWfHzRLx-Q"
+                },
+                "metaTags": {
+                    "type": "custom",
+                    "pos": 3,
+                    "field_type": "meta-fields",
+                    "options": [],
+                    "id": "9BZmQCU0RsqwVX6vHOh8Nw"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Property",
+            "component_group_uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "color": "#fbce41",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Templates"
+        },
+        {
+            "name": "templateRoom",
+            "display_name": "Single Unit",
+            "description": null,
+            "created_at": "2025-03-05T14:56:11.303Z",
+            "updated_at": "2025-03-24T15:40:19.709Z",
+            "id": 7046985,
+            "schema": {
+                "cardLabel": {
+                    "type": "text",
+                    "pos": 0,
+                    "description": "Adds a product sticker / label to product cards to convey concise information to users e.g. 'Recently let'.",
+                    "max_length": 28,
+                    "id": "_xCkUX5OR-qz9dbpzcYUQg"
+                }
+            },
+            "image": null,
+            "preview_field": null,
+            "is_root": true,
+            "preview_tmpl": null,
+            "is_nestable": false,
+            "all_presets": [],
+            "preset_id": null,
+            "real_name": "Single Unit",
+            "component_group_uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "color": "#fbce41",
+            "icon": "block-text-l",
+            "internal_tags_list": [],
+            "internal_tag_ids": [],
+            "content_type_asset_preview": null,
+            "metadata": {},
+            "component_group_name": "Templates"
+        }
+    ],
+    "component_groups": [
+        {
+            "name": "Archive (unused)",
+            "id": 515600,
+            "uuid": "28e9189d-37fa-4846-8380-8c6d8ce46cdd",
+            "parent_id": null,
+            "parent_uuid": null
+        },
+        {
+            "name": "Atoms",
+            "id": 515598,
+            "uuid": "7b7ab2b3-655b-49ef-a490-f824e42c4123",
+            "parent_id": null,
+            "parent_uuid": null
+        },
+        {
+            "name": "Body",
+            "id": 515596,
+            "uuid": "6a32ce18-6116-4b72-9ce0-c929e933c1f2",
+            "parent_id": null,
+            "parent_uuid": null
+        },
+        {
+            "name": "Data",
+            "id": 515597,
+            "uuid": "26a59b46-5d2d-400e-b145-acaa188cabe1",
+            "parent_id": null,
+            "parent_uuid": null
+        },
+        {
+            "name": "Molecules",
+            "id": 515599,
+            "uuid": "5473946f-1c8c-49fc-8e2e-e5bfb08e93d5",
+            "parent_id": null,
+            "parent_uuid": null
+        },
+        {
+            "name": "Templates",
+            "id": 515595,
+            "uuid": "5862e4f1-ada0-4592-aa62-9289f5b202d5",
+            "parent_id": null,
+            "parent_uuid": null
+        }
+    ]
+}

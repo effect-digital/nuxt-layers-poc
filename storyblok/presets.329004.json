@@ -1,0 +1,82 @@
+{
+  "presets": [
+    {
+      "id": 2511016,
+      "name": "Default",
+      "preset": {
+        "_uid": "d6fa3e85-81c5-4db5-90f5-f5db9127f157",
+        "data": "58daf30e-1845-4aa2-ac12-d0a94834d500",
+        "component": "sectionTextWithCarousel"
+      },
+      "component_id": 7047000,
+      "space_id": 329004,
+      "created_at": "2025-03-05T14:56:11.576Z",
+      "updated_at": "2025-03-05T14:56:11.576Z",
+      "image": "",
+      "color": "",
+      "icon": "",
+      "description": ""
+    },
+    {
+      "id": 2511017,
+      "name": "Default",
+      "preset": {
+        "_uid": "707e6a76-1b45-442e-bed9-b6328fc830e6",
+        "image": {
+          "id": 17767347,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "Outside The Eades",
+          "source": "",
+          "filename": "https://a.storyblok.com/f/308756/4096x2734/41839bd8e8/home-hero.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "meta_data": {
+            "alt": "",
+            "size": "4096x1893",
+            "title": "Outside The Eades",
+            "source": "",
+            "copyright": ""
+          },
+          "is_external_url": false
+        },
+        "component": "moleculeSingleCard",
+        "sectionTitle": [
+          {
+            "_uid": "d6f245c9-31b4-40ce-9da0-023b18332b93",
+            "brow": "Experience the Eades",
+            "style": "uppercase",
+            "component": "atomSingleBrow"
+          },
+          {
+            "_uid": "939f9b1b-0f7a-4639-8209-bb080967720d",
+            "style": "uppercase",
+            "title": "experience all the comforts and amenities the eades has to offer",
+            "component": "atomSingleTitle"
+          },
+          {
+            "_uid": "41e70652-603a-45ab-8324-4117ab08c6af",
+            "link": {
+              "id": "343aa741-6709-46bc-af4b-06edd5c48031",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": "home"
+            },
+            "text": "Book a viewing",
+            "component": "atomSingleCta"
+          }
+        ]
+      },
+      "component_id": 7047039,
+      "space_id": 329004,
+      "created_at": "2025-03-05T14:56:12.295Z",
+      "updated_at": "2025-03-05T14:56:12.295Z",
+      "image": "",
+      "color": "#F5A928",
+      "icon": "block-image",
+      "description": ""
+    }
+  ]
+}

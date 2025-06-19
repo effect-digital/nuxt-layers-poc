@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
+@source '../../layers/base/';
+
+:root {
+    --ui-secondary: var(--ui-color-secondary-200);
+    --ui-tertiary: var(--ui-color-tertiary-950);
+}
 
 @theme {
     --breakpoint-initial: 0rem;
@@ -13,6 +19,18 @@
     --breakpoint-2xl: 90rem;
     --breakpoint-3xl: 95.5rem;
     --breakpoint-max: 95.5rem;
+
+    --color-chocolate-50: #fff1f0;
+    --color-chocolate-100: #ffe1de;
+    --color-chocolate-200: #ffc8c2;
+    --color-chocolate-300: #ffa298;
+    --color-chocolate-400: #ff6c5d;
+    --color-chocolate-500: #ff3f2b;
+    --color-chocolate-600: #f6220c;
+    --color-chocolate-700: #d01805;
+    --color-chocolate-800: #ab1809;
+    --color-chocolate-900: #8d1b0f;
+    --color-chocolate-950: #360601;
 }
 
 @utility container {
