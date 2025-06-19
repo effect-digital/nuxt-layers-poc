@@ -5,20 +5,18 @@ export default defineNuxtConfig({
 
     css: ['~/assets/css/main.css'],
 
-    extends: process.env.NUXT_EXTENDS
-        ? [
-              [
-                  process.env.NUXT_EXTENDS,
-                  {
-                      auth: process.env.GITHUB_TOKEN,
-                      install: true,
-                      meta: {
-                          name: 'WoL-Layer'
-                      }
-                  }
-              ]
-          ]
-        : ['./layers/base'],
+    extends: [
+        [
+            'github:effect-digital/wol-layer',
+            {
+                auth: process.env.GIGET_AUTH,
+                install: true,
+                meta: {
+                    name: 'WoL Layer'
+                }
+            }
+        ]
+    ],
 
     modules: [
         '@nuxt/eslint',
