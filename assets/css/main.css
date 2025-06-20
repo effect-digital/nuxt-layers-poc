@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
-@source '../../layers/base/';
+@source '../../layers/base';
 
 :root {
     --ui-secondary: var(--ui-color-secondary-200);
