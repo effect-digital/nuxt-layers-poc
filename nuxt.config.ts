@@ -6,17 +6,11 @@ export default defineNuxtConfig({
 
     css: ['~/assets/css/main.css'],
 
-    // extends: ['../layers/base'],
-
     extends: [
         [
             'github:effect-digital/wol-layer',
             {
-                auth: process.env.GIGET_AUTH,
-                install: true,
-                meta: {
-                    name: 'wol-layer'
-                }
+                auth: process.env.GIGET_AUTH
             }
         ]
     ],
