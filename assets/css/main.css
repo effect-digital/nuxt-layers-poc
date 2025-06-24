@@ -1,7 +1,15 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
-@source '../../node_modules/.c12/github_effect_digital_Z9kRcg6nDC/presets/';
-@source '../../node_modules/.c12/github_effect_digital_Z9kRcg6nDC/components/';
+
+/* 
+Explicitly defines the Nuxt Layer path
+components, presets, and composables 
+content classes that should be detected 
+by Tailwind CSS V4.
+*/
+@source '../../node_modules/.c12/github_effect_digital_...*/presets/';
+@source '../../node_modules/.c12/github_effect_digital_...*/components/';
+@source '../../node_modules/.c12/github_effect_digital_...*/composables/';
 
 :root {
     --ui-secondary: var(--ui-color-secondary-200);
