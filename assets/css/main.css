@@ -1,6 +1,14 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
-@source '../../layers/base';
+
+/* 
+Nuxt layers support in Tailwind v4 is currently
+not available, so we need to use this method to 
+include the remote layer content at build.
+*/
+@source '~/node_modules/.c12/github_effect_digital_...*/components';
+@source '~/node_modules/.c12/github_effect_digital_...*/presets';
+@source '~/node_modules/.c12/github_effect_digital_...*/composables';
 
 :root {
     --ui-secondary: var(--ui-color-secondary-200);

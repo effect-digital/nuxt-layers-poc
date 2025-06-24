@@ -1,9 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
     compatibilityDate: '2025-05-15',
     devtools: { enabled: true },
 
     css: ['~/assets/css/main.css'],
+
+    // extends: ['../layers/base'],
 
     extends: [
         [
@@ -12,7 +15,7 @@ export default defineNuxtConfig({
                 auth: process.env.GIGET_AUTH,
                 install: true,
                 meta: {
-                    name: 'WoL Layer'
+                    name: 'wol-layer'
                 }
             }
         ]
@@ -22,8 +25,8 @@ export default defineNuxtConfig({
         '@nuxt/eslint',
         '@nuxt/image',
         '@nuxt/scripts',
-        '@nuxt/ui',
-        '@storyblok/nuxt'
+        '@storyblok/nuxt',
+        '@nuxt/ui'
     ],
 
     components: [
